@@ -47,13 +47,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "logdatacsv",
+						"referenceName": "datalakebutla",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "logdataparquet",
+						"referenceName": "logdataparquet1",
 						"type": "DatasetReference"
 					}
 				]
