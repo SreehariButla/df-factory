@@ -1,18 +1,9 @@
 {
 	"name": "logdatacsv",
 	"properties": {
-		"linkedServiceName": {
-			"referenceName": "datalakebutla_service",
-			"type": "LinkedServiceReference"
-		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
-			"location": {
-				"type": "AzureBlobFSLocation",
-				"fileName": "Log.csv",
-				"fileSystem": "csv"
-			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,

@@ -1,17 +1,9 @@
 {
 	"name": "logdataparquet",
 	"properties": {
-		"linkedServiceName": {
-			"referenceName": "datalakebutla_service",
-			"type": "LinkedServiceReference"
-		},
 		"annotations": [],
 		"type": "Parquet",
 		"typeProperties": {
-			"location": {
-				"type": "AzureBlobFSLocation",
-				"fileSystem": "parquet"
-			},
 			"compressionCodec": "snappy"
 		},
 		"schema": [
